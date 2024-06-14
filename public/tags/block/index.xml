@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Block on Perplex Example</title>
+    <link>http://localhost:4321/tags/block/</link>
+    <description>Recent content in Block on Perplex Example</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Nov 2022 14:54:07 +0100</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/block/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Layout</title>
+      <link>http://localhost:4321/doc/overview/markdown/</link>
+      <pubDate>Thu, 12 May 2022 22:30:17 +0200</pubDate>
+      <guid>http://localhost:4321/doc/overview/markdown/</guid>
+      <description>&lt;p class=&#34;p-first&#34;&gt;Samples of Hugo’s extended CommonMark syntax to give a quick impression of the layout capabilities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code Block Layout Demo</title>
+      <link>http://localhost:4321/blog/codelayout/</link>
+      <pubDate>Tue, 01 Nov 2022 14:54:07 +0100</pubDate>
+      <guid>http://localhost:4321/blog/codelayout/</guid>
+      <description>&lt;p class=&#34;p-first&#34;&gt;On large screens, code blocks expand into the margins as long as possible and may include up to {$160} characters in one line.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

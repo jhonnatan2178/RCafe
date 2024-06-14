@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Perplex Example</title>
+    <link>http://localhost:4321/</link>
+    <description>Recent content in News on Perplex Example</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 05 Sep 2023 00:02:59 +0200</lastBuildDate>
+    <atom:link href="http://localhost:4321/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resources in Data Files</title>
+      <link>http://localhost:4321/news/resources-in-data-files/</link>
+      <pubDate>Tue, 05 Sep 2023 00:02:59 +0200</pubDate>
+      <guid>http://localhost:4321/news/resources-in-data-files/</guid>
+      <description>&lt;p class=&#34;p-first&#34;&gt;The theme offers a new possibility to store local parameters for resources. Data files allow to associate local meta-data with global or remote resources.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>http://localhost:4321/news/search/</link>
+      <pubDate>Tue, 04 Jul 2023 18:18:12 +0200</pubDate>
+      <guid>http://localhost:4321/news/search/</guid>
+      <description>&lt;p class=&#34;p-first&#34;&gt;The theme is now prepared for &lt;strong&gt;{=Pagefind}&lt;/strong&gt;, a fast open-source full-text search engine for self-hosting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dark Mode</title>
+      <link>http://localhost:4321/news/dark-mode/</link>
+      <pubDate>Sun, 02 Jul 2023 00:21:16 +0200</pubDate>
+      <guid>http://localhost:4321/news/dark-mode/</guid>
+      <description>&lt;p class=&#34;p-first&#34;&gt;The theme offers a dark mode now. The colors follow the setting of the browser or operating system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Second Pre-release{/}of the Perplex Theme</title>
+      <link>http://localhost:4321/news/second-beta/</link>
+      <pubDate>Wed, 10 May 2023 23:19:38 +0200</pubDate>
+      <guid>http://localhost:4321/news/second-beta/</guid>
+      <description>&lt;p class=&#34;p-first&#34;&gt;Author pages are now available and some layout elements have been improved.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>First Pre-release{/}of the Perplex Theme</title>
+      <link>http://localhost:4321/news/first-release/</link>
+      <pubDate>Mon, 10 Apr 2023 22:04:33 +0200</pubDate>
+      <guid>http://localhost:4321/news/first-release/</guid>
+      <description>&lt;p class=&#34;p-first&#34;&gt;A new fluid-responsive Hugo theme is available for test runs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open files in VSCode{/}from Hugo’s server preview</title>
+      <link>http://localhost:4321/news/open-in-vscode/</link>
+      <pubDate>Fri, 31 Mar 2023 00:44:36 +0200</pubDate>
+      <guid>http://localhost:4321/news/open-in-vscode/</guid>
+      <description>&lt;p class=&#34;p-first&#34;&gt;Two short partials create a link to open the content file{/}of the current page in Hugo’s server mode.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo Module{/}for missing HTML inline tags</title>
+      <link>http://localhost:4321/news/replacements-module/</link>
+      <pubDate>Wed, 22 Feb 2023 23:55:26 +0200</pubDate>
+      <guid>http://localhost:4321/news/replacements-module/</guid>
+      <description>&lt;p class=&#34;p-first&#34;&gt;Replacement codes let us avoid raw HTML in Markdown.{/}A single partial replaces them with the inline tags{/}lacking a syntax element in Goldmark.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

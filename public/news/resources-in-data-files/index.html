@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="Hugo 0.127.0">
+
+  <meta name="description" content="The theme offers a new possibility to store local parameters for resources. Data files allow to associate local meta-data with global or remote resources.
+">
+
+
+
+
+
+<meta property="og:title" content="Resources in Data Files">
+
+<meta property="og:description" content="The theme offers a new possibility to store local parameters for resources. Data files allow to associate local meta-data with global or remote resources.
+">
+
+<meta property="og:image:url" content="http://localhost:4321/tags/resources/alexander-grey-tn57JI3CewI-unsplash_hu6884d4ce04a375160dcd39a87d8f78ec_456111_1200x675_fill_q80_h2_box_smart1.webp">
+      <meta property="og:image:width" content="1200">
+      <meta property="og:image.height" content="675">
+      <meta property="og:image:type" content="image/webp"><meta property="og:url" content="http://localhost:4321/news/resources-in-data-files/"><meta property="og:site_name" content="Perplex Example">
+
+  <meta property="og:type" content="website">
+
+
+
+
+
+
+    <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:image" content="http://localhost:4321/tags/resources/alexander-grey-tn57JI3CewI-unsplash_hu6884d4ce04a375160dcd39a87d8f78ec_456111_1200x675_fill_q80_h2_box_smart1.webp">
+      
+    
+
+
+
+  <meta name="twitter:title" content="Resources in Data Files">
+
+
+  <meta name="twitter:description" content="The theme offers a new possibility to store local parameters for resources. Data files allow to associate local meta-data with global or remote resources.
+">
+
+
+
+
+
+
+
+
+
+<title>Resources in Data Files | Perplex Example
+</title><link rel="preload" href=/IBM-Plex-Sans/fonts/split/woff2/IBMPlexSans-Bold-Latin1.woff2 as="font" type="font/woff2" crossorigin>
+<link rel="preload" href=/IBM-Plex-Sans/fonts/split/woff2/IBMPlexSans-Regular-Latin1.woff2 as="font"  type="font/woff2" crossorigin>
+<link rel="preload" href=/IBM-Plex-Sans-Condensed/fonts/split/woff2/IBMPlexSansCondensed-Light-Latin1.woff2 as="font" type="font/woff2" crossorigin>
+<link rel="preload" href=/IBM-Plex-Sans-Condensed/fonts/split/woff2/IBMPlexSansCondensed-Text-Latin1.woff2 as="font" type="font/woff2" crossorigin>
+<link rel="preload" href=/IBM-Plex-Sans-Condensed/fonts/split/woff2/IBMPlexSansCondensed-SemiBold-Latin1.woff2 as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/fontfaces.min.5442583bc9892da790ae4dfc5e0be3a914b9a11806fc02b0c0ed61f0456e76a1.css" integrity="sha256-VEJYO8mJLaeQrk38XgvjqRS5oRgG/AKwwO1h8EVudqE=" media="screen">
+
+<link rel="stylesheet" href="/css/screen.min.683cadcc32c7d29a58f666461665711994dc1be529dc59d27ce332a5971d0214.css" integrity="sha256-aDytzDLH0ppY9mZGFmVxGZTcG&#43;Up3FnSfOMypZcdAhQ=" media="screen">
+
+
+
+
+
+<script src="/js/ls.min.6caaaee2899d2d0bb2cd66e696389981f80744632f18ac48f14a6b0f559c46bd.js" integrity="sha256-bKqu4omdLQuyzWbmljiZgfgHRGMvGKxI8UprD1WcRr0=" async></script>
+
+<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg"><link rel="icon" type="image/png" href="/favicon/favicon.png"></head><body>
+<script>let FF_FOUC_FIX;  </script>
+<header class="l-masthead l-nav" id="l-masthead"><div class="ctrl ctrl-left" id="l-logo">
+    
+    
+    
+      <a class="ctrl__title ctrl__title--text nav__title" href="http://localhost:4321/">
+        <span>Perplex Example</span>
+      </a>
+    
+
+</div>
+<div class="ctrl ctrl-left" id="l-menu">
+<nav>
+    <ul class="ul--row">
+        <li><a  class="ctrl__menulink nav-main__link has-active" href="/" >News</a>
+        </li>
+        <li><a  class="ctrl__menulink nav-main__link" href="/doc/" >Docs</a>
+        </li>
+        <li><a  class="ctrl__menulink nav-main__link" href="/blog/" >Blog</a>
+        </li>
+        <li><a  class="ctrl__menulink nav-main__link" href="/authors/georg-makowski/" >About</a>
+        </li>
+    </ul>
+</nav>
+</div>
+<div class="ctrl ctrl-right" id="l-ctrl">
+  <nav>
+    <ul class="ul--row">
+    </ul>
+</nav>
+<a href="/search/" id="search" class="ctrl__button" title="Open search">
+
+        
+<span class='icon icon--material icon--normal'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19.55 20.575-6.3-6.275q-.75.625-1.725.975-.975.35-2 .35-2.575 0-4.35-1.775Q3.4 12.075 3.4 9.5q0-2.55 1.775-4.338 1.775-1.787 4.35-1.787 2.55 0 4.325 1.775 1.775 1.775 1.775 4.35 0 1.075-.35 2.05-.35.975-.95 1.7l6.275 6.275Zm-10.025-6.45q1.925 0 3.263-1.35 1.337-1.35 1.337-3.275 0-1.925-1.337-3.275-1.338-1.35-3.263-1.35-1.95 0-3.287 1.35Q4.9 7.575 4.9 9.5q0 1.925 1.338 3.275 1.337 1.35 3.287 1.35Z"/></svg></span>
+</a>
+
+
+</div>
+
+</header>
+<div class="l-page">
+  <main id="l-main" class="l-tnp"><div id="l-content-box" class="l-box l-box--full">
+    <article id="l-content" data-pagefind-body>
+      <header class="page-header">
+        <div class="meta meta--head meta--left" data-pagefind-ignore>
+
+<ul class="meta__list">
+  <li class="taxo-shape taxo-shape--category">
+      
+        <ul class="ul--row">
+<li class="meta__hanging">
+  <a class="link link--nav" href="/categories/" title="All Categories">
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="m5.042 9.479 4.979-8.146L15 9.479Zm9.666 9.167q-1.646 0-2.791-1.156-1.146-1.157-1.146-2.782 0-1.646 1.146-2.791 1.145-1.146 2.791-1.146 1.625 0 2.782 1.146 1.156 1.145 1.156 2.791 0 1.625-1.156 2.782-1.157 1.156-2.782 1.156Zm-12.583-.417v-7.062h7.063v7.062Z"/></svg></span>
+</a>
+</li>
+  <li class="meta__item meta__item--taxo"><a class="meta__text link link--nav" href="/categories/module/">Module
+
+</a></li></ul>
+      
+  </li>
+  <li class="taxo-shape taxo-shape--tag">
+      
+        <ul class="ul--row"><li class="meta__hanging">
+  <a class="link link--nav" href="/tags/" title="All Tags">
+    
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M3.188 10.542v5.875L.917 15.5Zm4.062 7.75h-2.5V11.5Zm1.958.75L4.146 5.333 14 1.75l5.042 13.729Zm.021-10.5q.396 0 .677-.282.282-.281.282-.677 0-.375-.282-.656-.281-.281-.677-.281-.375 0-.656.281t-.281.656q0 .396.281.677.281.282.656.282Z"/></svg></span>
+</a>
+</li>
+  <li class="meta__item meta__item--taxo"><a class="meta__text link link--nav" href="/tags/resources/">Resources
+
+</a></li></ul>
+      
+  </li>
+</ul>
+<div class="published">
+    <ul class="author-list"><li><a href="/authors/georg-makowski/" title="Georg Makowski">
+<figure class="fig fig--w-pt2 fig--portrait-small">
+    
+    
+    
+        <span 
+         class="img__frame" style="display: flex; justify-content: center; align-items: center">
+    <span 
+     class="img__c" style="position: relative; width: 100%; height: 0; padding-bottom: 100.0000%;">    
+    
+<img alt="Georg Makowski" class="img--ls" height="72" loading="lazy" src="data:image/webp;base64,UklGRtgDAABXRUJQVlA4IMwDAADwFQCdASpIAEgAPsFIlUUjoiEXrAZ0OwwE4At7YQWVYWv38wAyaKQTz/ZoqhzKhPHlV2wpoipkdBbGfBOLEuMMObI+mdOTCJfoV5gOI0SnjEUWbcWXs+9JoN8Nsl22pf4jkSI0v7axJaWjapgdREPl/gb+YBquMcemrQmdtt/FiiE7bQvAYGoEloJtb3qZUDBl+/mD+Y4HWv9z2VHAJCmvwehRK/FZBShMu9k89fbXPAko1j3i+2FIAP74KN9BCqNGeIlM09mvTua1z24rtqabb7Js4vm0fhLS3e7Jhx9UYuj7RwRu/0T2BCIGCzQR471dgn0q87/FlOXpXM51raLomK5i2gVKuQ2wjUgt9qokbWrZ/Q8ry5JVkwRh7dd8GSsHM8XNDdKBAq/6Bx2QUQn5AQzo7G76Iw0G+Mm7W8fckhTTkoHUd78tMc/Jd3oADSqwkQjO8AM6cetRI0s8bWghr1ieHiBWONUHbDpfuoe6NmXm9FtYrNibV0jr2+IVr9jaYOTLNYh9+P+MTc+SWTSH+lBTkdNcCc5VBZtMD+LDSPjNneJQiKe3j7ZK635sF3vziEJUX4lmUGEsGHoRbWqb1qdCJUMT009UJkTVl88N+Eba0ZHfdrfPMnOcE8GTxmnl300k8jIsffjzG90AzowP81H0dMXZTziPK9fw1GMOXHhoFZWlU2YgviSLYd5W7FukQRZeyvvpjEuwYhscJ/uzs2Ub5+1EDintS0kgFSsXd1TuSP13zHXKPysLI58pd3H+gNDwLIMyScl7yGbI24AbEbYhOV5N7LKcE9QT46xnZGqWqu2yDGw0PfFFGq+FIKBVj6HeZ6xv0FTEyivVak/M+Aytu+XSssQJj5QnPEn9IM1QvC5UzpKrwbPWv0uy03hoafc4V/h174uV3N8dpkfTkgm/Xjg4NZvTCMBAhq85dZ4XwT7+N1c6BrdGH0mmEQI1Ys/h//3EqyO4xauTDbPLVOqgioFlBN7X9Ifq4/IBLJipUk4THsYJU5R5j7NnbwsxEPQARxVNm7DBsE99EyQGS2G+fLD7MsWWtDTW8UKUXaRUa6NEPnZkQ88Y/7ADGWM3f93f19FEP5cNjTIDd8Mo5aSLM4axcjwU4USAMmCW8VoBGXMg+bBl1ireVKJ2arhW6sXULbE9Zp0mblkYnO0XjRVc7qeTQwmU9br5AvhijPvLxOz0gjIeSulykaBpp4g99oywEwNPHB0J2uvGjzGj3kt6tJ9G2tSxf8CrG0TUl7+dcbuy3yzrC5Fpf73D+7NPIuZ2ESqphfgAAAA=" width="72"></span>
+
+</span>
+
+    
+</figure></a></li>
+    </ul>
+<a href="vscode://fileC:\\ANDES_CAFE\\RCafe ANDES\\content\\news\\resources-in-data-files\\index.md" aria-label="Open file in VSCode" rel="nofollow"><ul class="meta__list meta__list--date">
+    <li class="meta__item">
+      <span class="meta__icon">
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.021 14.938q-.896 0-1.521-.615-.625-.615-.625-1.49 0-.895.625-1.521.625-.624 1.521-.624.875 0 1.489.624.615.626.615 1.521 0 .875-.615 1.49-.614.615-1.489.615ZM2.333 18.5V3.25h2.584V1.5h1.875v1.75h6.416V1.5h1.875v1.75h2.584V18.5Zm1.979-1.979h11.376V8.375H4.312Z"/></svg></span>
+</span>
+      <time class="meta__text" datetime="2023-09-05T00:02:59&#43;02:00">
+        Sep 5, 2023
+      </time>
+    </li><li class="meta__item meta__date">
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 18.5q-1.771 0-3.323-.667-1.552-.666-2.698-1.812t-1.812-2.698Q1.5 11.771 1.5 10t.667-3.323q.666-1.552 1.812-2.698t2.698-1.812Q8.229 1.5 10 1.5t3.323.667q1.552.666 2.698 1.812t1.812 2.698Q18.5 8.229 18.5 10t-.667 3.323q-.666 1.552-1.812 2.698t-2.698 1.812Q11.771 18.5 10 18.5Zm2.583-4.562 1.375-1.355-3-2.979V5.896H9.042v4.458Z"/></svg></span>
+<span class="meta__text">
+        0:02 am
+      </span>
+    </li></ul>
+          </a>
+</div>
+        </div>
+        <div class="title title--sans margin-full"><h1 data-pagefind-weight="10">Resources in Data Files
+
+</h1>
+
+
+        </div>
+          <aside class="featured-image"><figure class="fig fig--ph-right fig--w-small fig--featured">
+    
+    
+    
+        
+        
+        
+            
+                
+            
+            
+    
+        <span 
+         class="img__frame img__frame--box-shadow" style="display: flex; justify-content: center; align-items: center; background-image: linear-gradient(to right, #bdb6c8, #3e2d41)">
+    <span 
+     class="img__c" style="position: relative; width: 100%; height: 0; padding-bottom: 150.0000%;">    
+    
+<img alt="A pile of files" class="img--ls img--ph lazyload" data-optimumx="auto" data-sizes="auto" data-srcset="/tags/resources/alexander-grey-tn57JI3CewI-unsplash-256x.webp 256w, /tags/resources/alexander-grey-tn57JI3CewI-unsplash-286x.webp 286w, /tags/resources/alexander-grey-tn57JI3CewI-unsplash-319x.webp 319w, /tags/resources/alexander-grey-tn57JI3CewI-unsplash-330x.webp 330w, /tags/resources/alexander-grey-tn57JI3CewI-unsplash-356x.webp 356w, /tags/resources/alexander-grey-tn57JI3CewI-unsplash-397x.webp 397w, /tags/resources/alexander-grey-tn57JI3CewI-unsplash-444x.webp 444w, /tags/resources/alexander-grey-tn57JI3CewI-unsplash-495x.webp 495w, /tags/resources/alexander-grey-tn57JI3CewI-unsplash-553x.webp 553w, /tags/resources/alexander-grey-tn57JI3CewI-unsplash-617x.webp 617w, /tags/resources/alexander-grey-tn57JI3CewI-unsplash-689x.webp 689w, /tags/resources/alexander-grey-tn57JI3CewI-unsplash-769x.webp 769w, /tags/resources/alexander-grey-tn57JI3CewI-unsplash-858x.webp 858w" height="495" src="/tags/resources/alexander-grey-tn57JI3CewI-unsplash-330x.webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="330"></span>
+
+</span>
+
+    
+      <figcaption class="caption">
+           <span class="caption__attr" data-pagefind-ignore>(<a class="link link--text" href="https://unsplash.com/photos/tn57JI3CewI">Alexander Grey/Unsplash</a>)</span>
+      </figcaption>
+    
+</figure>
+</aside>
+      </header>
+      <div class="md md--sans md--h-sans md--margin-full"><p class="p-first">The theme offers a new possibility to store local parameters for resources. Data files allow to associate local meta-data with global or remote resources.</p>
+<p>Hugo offers to process arbitrary meta-data parameters associated with page resources. We can add a parameter list to <a class="link link--text" href="https://gohugo.io/content-management/page-resources/#page-resources-metadata" rel="external">local resources</a> in the front-matter of page bundles under <code>params</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">resources</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">src</span><span class="p">:</span><span class="w"> </span><span class="l">hebert-kostan-y6UEUCq2RHw-unsplash.jpg</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">tiger</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">params</span><span class="p">:</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">caption</span><span class="p">:</span><span class="w"> </span><span class="l">Local image resource</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">width</span><span class="p">:</span><span class="w"> </span><span class="l">small</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">posh</span><span class="p">:</span><span class="w"> </span><span class="l">left</span><span class="w">
+</span></span></span></code></pre></div>
+    
+    <figure class="fig fig--ph-left fig--w-small">
+    
+    
+    
+        
+        
+        
+            
+                
+            
+            
+    
+        <span 
+         class="img__frame img__frame--box-shadow" style="display: flex; justify-content: center; align-items: center; background-image: linear-gradient(to right, #bfb2ab, #4a4f46)">
+    <span 
+     class="img__c" style="position: relative; width: 100%; height: 0; padding-bottom: 56.2574%;">    
+    
+<img alt="global tiger" class="img--ls img--lqip lazyload" data-optimumx="auto" data-sizes="auto" data-srcset="/img/tiger/hebert-kostan-y6UEUCq2RHw-unsplash-256x.webp 256w, /img/tiger/hebert-kostan-y6UEUCq2RHw-unsplash-286x.webp 286w, /img/tiger/hebert-kostan-y6UEUCq2RHw-unsplash-319x.webp 319w, /img/tiger/hebert-kostan-y6UEUCq2RHw-unsplash-330x.webp 330w, /img/tiger/hebert-kostan-y6UEUCq2RHw-unsplash-356x.webp 356w, /img/tiger/hebert-kostan-y6UEUCq2RHw-unsplash-397x.webp 397w, /img/tiger/hebert-kostan-y6UEUCq2RHw-unsplash-444x.webp 444w, /img/tiger/hebert-kostan-y6UEUCq2RHw-unsplash-495x.webp 495w, /img/tiger/hebert-kostan-y6UEUCq2RHw-unsplash-553x.webp 553w, /img/tiger/hebert-kostan-y6UEUCq2RHw-unsplash-617x.webp 617w, /img/tiger/hebert-kostan-y6UEUCq2RHw-unsplash-689x.webp 689w, /img/tiger/hebert-kostan-y6UEUCq2RHw-unsplash-769x.webp 769w, /img/tiger/hebert-kostan-y6UEUCq2RHw-unsplash-858x.webp 858w" height="186" src="data:image/webp;base64,UklGRn4CAABXRUJQVlA4IHICAABwFQCdASpuAD4APyV4rEmnI6IZu8egcxJE8YBiUj4Mvw4EzT9vApd/FyruWllY2iRtJv6SpXf4i2Ed7yMFWa16ixrr4ENHwM0mWs8X8Lr9+g9OyH9XEwi3BJ9vKpNnrRKkW8+2DKPlExJdcFoazx1J0E3KKDNP1leKjKimX0EnHGEyfHxF7Z8oJ2SDEyeusoSEreMG9Iuhs4pCJINg7QpQPlKRXVWoCiX5LbYZiVa9pvL90AAA/IiWgGH3sVo9p3ygi8BTBCy0nkOmg/4gK7F5xceoSWJa03hDyDzPSkdK7DbYSW2DmhZywUlbWJZkY13NixLHT5uuuLksUaxF3ft4IKrzJlbssFouBEJnBDLl4EGrKzrnQYhYTX08TEGpO/ZDZ7LA37CU3A0mJmUr07DUtIt2eaN30GIPEDEPbqj8p4VBRN/9rwAO2zWf+AvYONl22e+hC3+3L6jLkx2pQonT5MILPRH2mviOPrzc4OyXtJ6uH0LBeYGHgKC2F7QgBjXyxYkHKSif+gSKpDfHunmFD5kGjA32QPYX416ZJvBz9PzWv2/c1aXD/MadnWRNqtXyXRIij6ccupc9moZAjWCJXAMgVmRlKE9vr3rTN7XYSx9Fhya7BWU3OeMrjeu+eAwhPT2G0bhCsC1WV86JhRflhqrIX6Jju65mONtCD9FGePOpk+vFAjjZ3CA+rJxLZ9dnjfRh5iOt0seNXQaNZEWn0DM9DOX5fB1yKIi/+Bzrym6xUDU6sAIbiZgpKcRdY1iiukRwAOgLZl7wlnYB0UJROMECI4hP0ZW136pZU6iy1xN5Fj3uLD0M/ShxSnFcHapEAA==" width="330"></span>
+
+</span>
+
+    
+      <figcaption class="caption">
+           <span class="caption__text">Image file from <var>assets</var></span><span class="caption__attr" data-pagefind-ignore>(<a class="link link--text" href="https://unsplash.com/photos/y6UEUCq2RHw">Hebert Kostan/Unsplash</a>)</span>
+      </figcaption>
+    
+</figure><p>Depending on the content structure of your project, you may want to store some resources in the global <var>assets</var> folder or on a remote server. Hugo also can retrieve these resources, but there is (currently) no native mechanism to associate them with meta-data parameters. And this is where this module comes in handy.</p>
+<p>The tiger here is stored in the <var>assets</var> folder and gets referenced in a local data file. This way, we can re-use global assets repeatedly and store meta-data in a file like <var>global.yaml</var>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">src</span><span class="p">:</span><span class="w"> </span><span class="l">img/tiger/hebert-kostan-y6UEUCq2RHw-unsplash.jpg</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">caption</span><span class="p">:</span><span class="w"> </span><span class="l">Image file from <var>assets</var></span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">width</span><span class="p">:</span><span class="w"> </span><span class="l">small</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">posh</span><span class="p">:</span><span class="w"> </span><span class="l">left</span><span class="w">
+</span></span></span></code></pre></div>
+    
+    <figure class="fig fig--ph-right fig--w-tiny">
+    
+    
+    
+        
+        
+        
+            
+                
+            
+            
+    
+        <span 
+         class="img__frame img__frame--box-shadow" style="display: flex; justify-content: center; align-items: center; background-image: linear-gradient(to right, #352825, #bea08c)">
+    <span 
+     class="img__c" style="position: relative; width: 100%; height: 0; padding-bottom: 100.0000%;">    
+    
+<img alt="Remote image" class="img--ls img--lqip lazyload" data-optimumx="auto" data-sizes="auto" data-srcset="/903-300x300_15683744992042060971-128x.webp 128w, /903-300x300_15683744992042060971-142x.webp 142w, /903-300x300_15683744992042060971-158x.webp 158w, /903-300x300_15683744992042060971-165x.webp 165w, /903-300x300_15683744992042060971-176x.webp 176w, /903-300x300_15683744992042060971-196x.webp 196w, /903-300x300_15683744992042060971-218x.webp 218w, /903-300x300_15683744992042060971-242x.webp 242w, /903-300x300_15683744992042060971-270x.webp 270w, /903-300x300_15683744992042060971-300x.webp 300w" height="165" src="data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAADwCACdASo3ADcAPxluokm/uCGb/f4B+xGE8YBj0CjEn0IV2guR1DxSAtVUhx1QropfzwginZNg270S8d7qQheWaipMJ6blWrtNOqt6xyz5wAD+8HVxU2uFy2hHJHrMPcfGQBvSXXAFN2vBFGP7nkFwSmF5V7G6Z/jbFI+Y4ox2vNvnbBKz/ilsQEj6TtwSdLao2cMgoiUaDbeLucEBvJjHjJGGjZYYO1+OHfhW3cxxAopLr9gdqLupAtwC9SBi1IAAAA==" width="165"></span>
+
+</span>
+
+    
+      <figcaption class="caption">
+           <span class="caption__text">Random image</span>
+      </figcaption>
+    
+</figure><p>The extra parameter keys are the same as the ones above. There is no new name for the resource, we use the data file inside the usual Markdown image syntax like <code>![global tiger](global.yaml)</code>.</p>
+<p>We can also use TOML or JSON files, enter a remote URL as source, and call every image service with an HTTP API. The second image here is generated with this data file for example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;src&#34;</span><span class="p">:</span> <span class="s2">&#34;https://picsum.photos/300/300&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;caption&#34;</span><span class="p">:</span> <span class="s2">&#34;Random image&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;posh&#34;</span><span class="p">:</span> <span class="s2">&#34;right&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;width&#34;</span><span class="p">:</span> <span class="s2">&#34;tiny&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>The module is available on <a class="link link--text" href="https://github.com/bowman2001/hugo-mod-resource" rel="external">GitHub</a>.</p>
+</div>
+      <div class="margin-full">
+
+      </div>
+    </article>
+    <footer class="page-footer margin-full">
+      <div class="meta meta--foot"><nav>
+    
+
+<ul class="meta__list">
+  <li class="taxo-shape taxo-shape--category">
+      
+        <ul class="ul--row">
+<li class="meta__hanging">
+  <a class="link link--nav" href="/categories/" title="All Categories">
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="m5.042 9.479 4.979-8.146L15 9.479Zm9.666 9.167q-1.646 0-2.791-1.156-1.146-1.157-1.146-2.782 0-1.646 1.146-2.791 1.145-1.146 2.791-1.146 1.625 0 2.782 1.146 1.156 1.145 1.156 2.791 0 1.625-1.156 2.782-1.157 1.156-2.782 1.156Zm-12.583-.417v-7.062h7.063v7.062Z"/></svg></span>
+</a>
+</li>
+  <li class="meta__item meta__item--taxo"><a class="meta__text link link--nav" href="/categories/module/">Module
+
+</a></li></ul>
+      
+  </li>
+  <li class="taxo-shape taxo-shape--tag">
+      
+        <ul class="ul--row"><li class="meta__hanging">
+  <a class="link link--nav" href="/tags/" title="All Tags">
+    
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M3.188 10.542v5.875L.917 15.5Zm4.062 7.75h-2.5V11.5Zm1.958.75L4.146 5.333 14 1.75l5.042 13.729Zm.021-10.5q.396 0 .677-.282.282-.281.282-.677 0-.375-.282-.656-.281-.281-.677-.281-.375 0-.656.281t-.281.656q0 .396.281.677.281.282.656.282Z"/></svg></span>
+</a>
+</li>
+  <li class="meta__item meta__item--taxo"><a class="meta__text link link--nav" href="/tags/resources/">Resources
+
+</a></li></ul>
+      
+  </li>
+</ul>
+
+    <ul class="ul--row meta__list">
+  <li class="meta__item">
+    <a class="meta__icon link link--nav" href="/" title="Home" rel="nofollow">
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M3.167 17.667V7.438L10 2.292l6.833 5.146v10.229h-5.75v-5.646H8.896v5.646Z"/></svg></span>
+</a></li><li class="meta__item"><span class="meta__separator">›</span>
+</li>
+    <li class="meta__item">
+        <a class="meta__text link link--nav" href="/" rel="nofollow">News
+
+</a><span class="meta__separator">›</span>
+
+      </li><li class="meta__item">
+    <a class="meta__text link link--nav" href="/news/resources-in-data-files/" aria-current="page" rel="nofollow">Resources in Data Files</a>
+  </li>
+</ul>
+
+</nav>
+<ul class="meta__list meta__list--date">
+  <li class="meta__item"><span class="meta__icon"><a href="vscode://fileC:\\ANDES_CAFE\\RCafe ANDES\\content\\news\\resources-in-data-files\\index.md" aria-label="Open file in VSCode" rel="nofollow">
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="m16.208 7.604-3.75-3.771 2.271-2.291 3.792 3.75Zm-13.75 9.979v-3.75l8.771-8.771 3.75 3.75-8.75 8.771Z"/></svg></span>
+
+          </a>
+</span>
+    <time class="meta__text" datetime="2023-09-05T00:02:59&#43;02:00">Sep 5, 2023</time>
+  </li><li class="meta__item"><span class="meta__icon">
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 18.5q-1.771 0-3.323-.667-1.552-.666-2.698-1.812t-1.812-2.698Q1.5 11.771 1.5 10t.667-3.323q.666-1.552 1.812-2.698t2.698-1.812Q8.229 1.5 10 1.5t3.323.667q1.552.666 2.698 1.812t1.812 2.698Q18.5 8.229 18.5 10t-.667 3.323q-.666 1.552-1.812 2.698t-2.698 1.812Q11.771 18.5 10 18.5Zm2.583-4.562 1.375-1.355-3-2.979V5.896H9.042v4.458Z"/></svg></span>
+</span>
+    <span class="meta__text">0:02 am</span></li><li class="meta__item"><span class="meta__icon"><a class="link link--nav" href="/authors/" title="All authors" rel="nofollow">
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M15.042 11.458V9.042h-2.417V7.208h2.417V4.792h1.833v2.416h2.417v1.834h-2.417v2.416Zm-7.48-1.562q-1.479 0-2.489-1.011-1.011-1.01-1.011-2.489 0-1.5 1.011-2.5 1.01-1 2.489-1 1.5 0 2.511 1 1.01 1 1.01 2.5 0 1.479-1.01 2.489-1.011 1.011-2.511 1.011ZM.688 16.917v-2.563q0-.792.406-1.406.406-.615 1.052-.948 1.312-.625 2.677-.938 1.365-.312 2.76-.312 1.417 0 2.792.323 1.375.323 2.667.927.646.312 1.041.938.396.624.396 1.416v2.563Z"/></svg></span>
+</a>
+</span>
+      <a class="meta__text link link--nav" href="/authors/georg-makowski/" rel="nofollow">Georg Makowski
+
+</a></li></ul>
+      </div>
+      <hr><nav class="page-nav">
+  <ul class="page-nav__list">
+      
+          
+  <li class="page-nav__li"><span class="page-nav__link page-nav__link--start link link--nav">
+      <span class="page-nav__itemcol">
+        
+      </span>
+         
+
+
+    
+
+
+    
+
+<span><span class="page-nav__meta">Perplex Example
+
+</span><span class="page-nav__title">News
+
+</span></span>
+      <span class="page-nav__icon page-nav__icon--arrow">
+
+<span class='icon icon--material icon--normal'> </span>
+</span>
+    </span></li>
+
+        <li class="page-nav__li">
+          <a href="/news/search/" class="page-nav__link page-nav__link--next link link--nav">
+              <span class="page-nav__icon"></span>
+              <div class="page-nav__title"><span class="text">Search
+
+</span></div>
+
+            <span class="page-nav__icon page-nav__icon--arrow">
+
+        
+<span class='icon icon--material icon--normal'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.725 18.675-1.05-1.05 4.875-4.875H2.4v-1.5h16.15l-4.875-4.875 1.05-1.05 6.7 6.675Z"/></svg></span>
+</span>
+          </a></li>
+      </ul>
+</nav>
+
+
+
+
+
+    </footer>
+  </div>
+    <footer id="l-footer" class="l-box margin-full-half">
+
+    </footer>
+  </main>
+  <div id="l-overlay"></div>
+</div>
+<script defer src="/js/foot.min.647041716d25f250160523ec93482b0362c91a005167af878924dec883715594.js" integrity="sha256-ZHBBcW0l8lAWBSPsk0grA2LJGgBRZ6&#43;HiSTeyINxVZQ="></script>
+
+  
+
+
+
+
+
+
+
+
+</body>
+</html>

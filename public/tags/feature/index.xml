@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feature on Perplex Example</title>
+    <link>http://localhost:4321/tags/feature/</link>
+    <description>Recent content in Feature on Perplex Example</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Jul 2023 18:49:54 +0200</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/feature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Concept</title>
+      <link>http://localhost:4321/doc/overview/concept/</link>
+      <pubDate>Thu, 12 May 2022 22:29:06 +0200</pubDate>
+      <guid>http://localhost:4321/doc/overview/concept/</guid>
+      <description>&lt;p class=&#34;p-first&#34;&gt;A coherent site structure for different publishing formats, a typographic layout for enhanced Markdown content, and good legibility on all screen sizes are the essential goals of this theme.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Features</title>
+      <link>http://localhost:4321/doc/overview/features/</link>
+      <pubDate>Thu, 27 Jul 2023 18:49:54 +0200</pubDate>
+      <guid>http://localhost:4321/doc/overview/features/</guid>
+      <description>&lt;p class=&#34;p-first&#34;&gt;A page layout based on classic typographical principles without compromise.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Coming Features</title>
+      <link>http://localhost:4321/doc/overview/coming/</link>
+      <pubDate>Wed, 12 Apr 2023 11:26:56 +0200</pubDate>
+      <guid>http://localhost:4321/doc/overview/coming/</guid>
+      <description>&lt;p class=&#34;p-first&#34;&gt;Features, which I consider essential, and the ones which would be nice to have.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

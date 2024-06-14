@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Color on Perplex Example</title>
+    <link>http://localhost:4321/tags/color/</link>
+    <description>Recent content in Color on Perplex Example</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 02 Jul 2023 00:21:16 +0200</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/color/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dark Mode</title>
+      <link>http://localhost:4321/news/dark-mode/</link>
+      <pubDate>Sun, 02 Jul 2023 00:21:16 +0200</pubDate>
+      <guid>http://localhost:4321/news/dark-mode/</guid>
+      <description>&lt;p class=&#34;p-first&#34;&gt;The theme offers a dark mode now. The colors follow the setting of the browser or operating system.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

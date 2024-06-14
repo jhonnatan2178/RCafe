@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on Perplex Example</title>
+    <link>http://localhost:4321/tags/resources/</link>
+    <description>Recent content in Resources on Perplex Example</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 05 Sep 2023 00:02:59 +0200</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resources in Data Files</title>
+      <link>http://localhost:4321/news/resources-in-data-files/</link>
+      <pubDate>Tue, 05 Sep 2023 00:02:59 +0200</pubDate>
+      <guid>http://localhost:4321/news/resources-in-data-files/</guid>
+      <description>&lt;p class=&#34;p-first&#34;&gt;The theme offers a new possibility to store local parameters for resources. Data files allow to associate local meta-data with global or remote resources.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

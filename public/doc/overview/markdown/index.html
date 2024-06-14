@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="Hugo 0.127.0">
+
+  <meta name="description" content="Samples of Hugo’s extended CommonMark syntax to give a quick impression of the layout capabilities.
+">
+
+
+
+
+
+<meta property="og:title" content="Markdown Layout">
+
+<meta property="og:description" content="Samples of Hugo’s extended CommonMark syntax to give a quick impression of the layout capabilities.
+">
+
+<meta property="og:image:url" content="http://localhost:4321/doc/overview/markdown/Markdown_hu881c8b6b6b24afa381cc06b66421a69f_21344_1200x675_fill_q80_h2_box_smart1_3.webp">
+      <meta property="og:image:width" content="1200">
+      <meta property="og:image.height" content="675">
+      <meta property="og:image:type" content="image/webp"><meta property="og:url" content="http://localhost:4321/doc/overview/markdown/"><meta property="og:site_name" content="Perplex Example">
+
+  <meta property="og:type" content="website">
+
+
+
+
+
+
+    <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:image" content="http://localhost:4321/doc/overview/markdown/Markdown_hu881c8b6b6b24afa381cc06b66421a69f_21344_1200x675_fill_q80_h2_box_smart1_3.webp">
+      
+    
+
+
+
+  <meta name="twitter:title" content="Markdown Layout">
+
+
+  <meta name="twitter:description" content="Samples of Hugo’s extended CommonMark syntax to give a quick impression of the layout capabilities.
+">
+
+
+
+
+
+
+
+
+    
+
+
+<title>Markdown Layout | Perplex Example
+</title><link rel="preload" href=/IBM-Plex-Sans/fonts/split/woff2/IBMPlexSans-Bold-Latin1.woff2 as="font" type="font/woff2" crossorigin>
+<link rel="preload" href=/IBM-Plex-Sans/fonts/split/woff2/IBMPlexSans-Regular-Latin1.woff2 as="font"  type="font/woff2" crossorigin>
+<link rel="preload" href=/IBM-Plex-Sans-Condensed/fonts/split/woff2/IBMPlexSansCondensed-Light-Latin1.woff2 as="font" type="font/woff2" crossorigin>
+<link rel="preload" href=/IBM-Plex-Sans-Condensed/fonts/split/woff2/IBMPlexSansCondensed-Text-Latin1.woff2 as="font" type="font/woff2" crossorigin>
+<link rel="preload" href=/IBM-Plex-Sans-Condensed/fonts/split/woff2/IBMPlexSansCondensed-SemiBold-Latin1.woff2 as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/fontfaces.min.5442583bc9892da790ae4dfc5e0be3a914b9a11806fc02b0c0ed61f0456e76a1.css" integrity="sha256-VEJYO8mJLaeQrk38XgvjqRS5oRgG/AKwwO1h8EVudqE=" media="screen">
+
+<link rel="stylesheet" href="/css/screen.min.683cadcc32c7d29a58f666461665711994dc1be529dc59d27ce332a5971d0214.css" integrity="sha256-aDytzDLH0ppY9mZGFmVxGZTcG&#43;Up3FnSfOMypZcdAhQ=" media="screen">
+
+
+
+
+
+<script src="/js/ls.min.6caaaee2899d2d0bb2cd66e696389981f80744632f18ac48f14a6b0f559c46bd.js" integrity="sha256-bKqu4omdLQuyzWbmljiZgfgHRGMvGKxI8UprD1WcRr0=" async></script>
+
+<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg"><link rel="icon" type="image/png" href="/favicon/favicon.png"></head><body>
+<header class="l-masthead l-nav" id="l-masthead"><div class="ctrl ctrl-left" id="l-logo"><button id="tgl-sb" class="ctrl__button" title="Open sidebar" aria-label="Open sidebar"><span class="icon icon--material"></span></button>
+    
+    
+    
+      <a class="ctrl__title ctrl__title--text nav__title" href="http://localhost:4321/">
+        <span>Perplex Example</span>
+      </a>
+    
+
+</div>
+<div class="ctrl ctrl-left" id="l-menu">
+<nav>
+    <ul class="ul--row">
+        <li><a  class="ctrl__menulink nav-main__link" href="/" >News</a>
+        </li>
+        <li><a  class="ctrl__menulink nav-main__link has-active" href="/doc/" >Docs</a>
+        </li>
+        <li><a  class="ctrl__menulink nav-main__link" href="/blog/" >Blog</a>
+        </li>
+        <li><a  class="ctrl__menulink nav-main__link" href="/authors/georg-makowski/" >About</a>
+        </li>
+    </ul>
+</nav>
+</div>
+<div class="ctrl ctrl-right" id="l-ctrl">
+  <nav>
+    <ul class="ul--row">
+    </ul>
+</nav>
+<a href="/search/" id="search" class="ctrl__button" title="Open search">
+
+        
+<span class='icon icon--material icon--normal'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19.55 20.575-6.3-6.275q-.75.625-1.725.975-.975.35-2 .35-2.575 0-4.35-1.775Q3.4 12.075 3.4 9.5q0-2.55 1.775-4.338 1.775-1.787 4.35-1.787 2.55 0 4.325 1.775 1.775 1.775 1.775 4.35 0 1.075-.35 2.05-.35.975-.95 1.7l6.275 6.275Zm-10.025-6.45q1.925 0 3.263-1.35 1.337-1.35 1.337-3.275 0-1.925-1.337-3.275-1.338-1.35-3.263-1.35-1.95 0-3.287 1.35Q4.9 7.575 4.9 9.5q0 1.925 1.338 3.275 1.337 1.35 3.287 1.35Z"/></svg></span>
+</a>
+
+  <button id="toggle-toc" class="ctrl__button" aria-label="Open TOC" title="Open TOC"><span class="icon icon--material"></span></button>
+
+
+        <aside class="is-closed" id="toc">
+          <div class="toc__box">
+            <div class="toc__content">
+              <nav class="toc__list">
+                <h2 class="toc__title">
+                  <a href="#l-content-box" class="nav__link">On this Page</a>
+                </h2>
+                <ul>
+          <li class="nav__item nav__item--2">
+            <a href="/doc/overview/markdown/#headings">Headings
+</a>
+          </li>
+          <li class="nav__item nav__item--2">
+            <a href="/doc/overview/markdown/#section">Section
+</a>
+                  <ul>
+          <li class="nav__item nav__item--3">
+            <a href="/doc/overview/markdown/#subsection">Subsection
+</a>
+                  <ul>
+          <li class="nav__item nav__item--4">
+            <a href="/doc/overview/markdown/#sub-subsection">Sub-subsection
+</a>
+          </li>
+                  </ul>
+          </li>
+                  </ul>
+          </li>
+          <li class="nav__item nav__item--2">
+            <a href="/doc/overview/markdown/#images">Images
+</a>
+                  <ul>
+          <li class="nav__item nav__item--3">
+            <a href="/doc/overview/markdown/#stand-alone">Stand-alone
+</a>
+          </li>
+          <li class="nav__item nav__item--3">
+            <a href="/doc/overview/markdown/#embedded">Embedded
+</a>
+          </li>
+                  </ul>
+          </li>
+          <li class="nav__item nav__item--2">
+            <a href="/doc/overview/markdown/#link">Link
+</a>
+          </li>
+          <li class="nav__item nav__item--2">
+            <a href="/doc/overview/markdown/#blockquotes">Blockquotes
+</a>
+                  <ul>
+          <li class="nav__item nav__item--3">
+            <a href="/doc/overview/markdown/#without-attribution">Without attribution
+</a>
+          </li>
+          <li class="nav__item nav__item--3">
+            <a href="/doc/overview/markdown/#with-attribution-and-footnote">With attribution and footnote
+</a>
+          </li>
+                  </ul>
+          </li>
+          <li class="nav__item nav__item--2">
+            <a href="/doc/overview/markdown/#tables">Tables
+</a>
+                  <ul>
+          <li class="nav__item nav__item--3">
+            <a href="/doc/overview/markdown/#centered-table-columns">Centered table columns
+</a>
+          </li>
+          <li class="nav__item nav__item--3">
+            <a href="/doc/overview/markdown/#inline-markdown-within-tables">Inline Markdown within tables
+</a>
+          </li>
+                  </ul>
+          </li>
+          <li class="nav__item nav__item--2">
+            <a href="/doc/overview/markdown/#code-blocks">Code Blocks
+</a>
+                  <ul>
+          <li class="nav__item nav__item--3">
+            <a href="/doc/overview/markdown/#with-backticks-code-fences">With backticks (code fences)
+</a>
+          </li>
+          <li class="nav__item nav__item--3">
+            <a href="/doc/overview/markdown/#code-block-indented-with-four-spaces">Code block indented with four spaces
+</a>
+          </li>
+          <li class="nav__item nav__item--3">
+            <a href="/doc/overview/markdown/#code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode
+</a>
+          </li>
+                  </ul>
+          </li>
+          <li class="nav__item nav__item--2">
+            <a href="/doc/overview/markdown/#list-types">List Types
+</a>
+                  <ul>
+          <li class="nav__item nav__item--3">
+            <a href="/doc/overview/markdown/#ordered-list">Ordered list
+</a>
+          </li>
+          <li class="nav__item nav__item--3">
+            <a href="/doc/overview/markdown/#unordered-list">Unordered list
+</a>
+          </li>
+          <li class="nav__item nav__item--3">
+            <a href="/doc/overview/markdown/#nested-unordered-and-ordered-list">Nested unordered and ordered list
+</a>
+          </li>
+          <li class="nav__item nav__item--3">
+            <a href="/doc/overview/markdown/#definition-list">Definition list
+</a>
+          </li>
+                  </ul>
+          </li>
+          <li class="nav__item nav__item--2">
+            <a href="/doc/overview/markdown/#missing-markdown-elements">Missing Markdown elements
+</a>
+                  <ul>
+          <li class="nav__item nav__item--3">
+            <a href="/doc/overview/markdown/#additional-inline-elements">Additional inline elements
+</a>
+          </li>
+          <li class="nav__item nav__item--3">
+            <a href="/doc/overview/markdown/#inline-with-special-attributes">Inline with special attributes
+</a>
+          </li>
+                  </ul>
+          </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </aside>
+</div>
+</header>
+<div class="l-page l-page--doc">
+  <aside id="l-sidebar" class="l-nav l-tnp"><div class="l-wrap sidebar-box">
+  <nav class="sidebar">
+      
+      <ul class="sidebar__list sidebar__list--1">
+    
+    
+    
+    
+        
+          <li class="sidebar__item sidebar__item--1 nav__item nav__item--1 has-active"><a href="/doc/overview/" class="link link--nav sidebar__link">
+
+
+        
+<span class='icon icon--material icon--normal'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 15.575q1.7 0 2.887-1.188 1.188-1.187 1.188-2.887t-1.188-2.887Q13.7 7.425 12 7.425T9.113 8.613Q7.925 9.8 7.925 11.5t1.188 2.887Q10.3 15.575 12 15.575Zm0-1.375q-1.125 0-1.912-.788Q9.3 12.625 9.3 11.5t.788-1.913Q10.875 8.8 12 8.8t1.913.787q.787.788.787 1.913t-.787 1.912q-.788.788-1.913.788Zm0 4.3q-3.45 0-6.287-1.9-2.838-1.9-4.163-5.1 1.325-3.2 4.163-5.1Q8.55 4.5 12 4.5q3.45 0 6.288 1.9 2.837 1.9 4.162 5.1-1.325 3.2-4.162 5.1Q15.45 18.5 12 18.5Zm0-7Zm0 5.5q2.825 0 5.188-1.488Q19.55 14.025 20.8 11.5q-1.25-2.525-3.612-4.013Q14.825 6 12 6 9.175 6 6.812 7.487 4.45 8.975 3.2 11.5q1.25 2.525 3.612 4.012Q9.175 17 12 17Z"/></svg></span>
+
+  <span class="sidebar__text">TL;DR</span>
+      </a>
+            
+      <input id="menu-tldr" class="sidebar__chk" type="checkbox">
+      <label class="sidebar__open" for="menu-tldr"><span class="sr-only">+</span>
+          <span class="icon icon--material"></span>
+      </label>
+    
+            <ul class='sidebar__list sidebar__list--2 items-have-no-children'>
+                
+                  <li class='sidebar__item sidebar__item--2 nav__item nav__item--2'><a href="/doc/overview/concept/" class="link link--nav sidebar__link">
+
+
+        
+<span class='icon icon--material icon--small'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.083 16.25V3.75h15.834v12.5Zm1.334-1.333h13.166V5.083H3.417Zm1.812-4.229h7.083V9.354H5.229Zm0-2.459h7.083V6.896H5.229ZM3.417 5.083v9.834Z"/></svg></span>
+
+  <span class="sidebar__text">Concept</span>
+      </a>
+                      
+                  </li>
+                
+                  <li class='sidebar__item sidebar__item--2 nav__item nav__item--2'>
+  <span class="link link--nav sidebar__link is-active" aria-current="page">
+
+
+        
+<span class='icon icon--material icon--small'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M4.375 15.75h1.104L13 8.229l-1.083-1.104-7.542 7.542Zm11.437-8.438-3-3.02 1.917-1.896 3 3.021Zm-12.77 9.771v-3l8.854-8.854 3 3-8.854 8.854Zm9.416-9.395-.541-.563L13 8.229Z"/></svg></span>
+
+  <span class="sidebar__text">Markdown Layout</span>
+  </span>
+                      
+                  </li>
+                
+                  <li class='sidebar__item sidebar__item--2 nav__item nav__item--2'><a href="/doc/overview/features/" class="link link--nav sidebar__link">
+
+
+        
+<span class='icon icon--material icon--small'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="m5.833 16.896 1.584-5.125-4.125-3.063h5.083L10 3.438l1.625 5.27h5.083l-4.125 3.063 1.584 5.125L10 13.729Z"/></svg></span>
+
+  <span class="sidebar__text">Features</span>
+      </a>
+                      
+                  </li>
+                
+                  <li class='sidebar__item sidebar__item--2 nav__item nav__item--2'><a href="/doc/overview/coming/" class="link link--nav sidebar__link">
+
+
+        
+<span class='icon icon--material icon--small'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.208 13.792v-1.084h6.584v1.084Zm0-6.5V6.208h6.584v1.084Zm9.854 8.416-.77-.77L13.229 13l-1.937-1.938.77-.77L14 12.229l1.938-1.937.77.77L14.771 13l1.937 1.938-.77.77L14 13.771Zm1.417-7-2.187-2.187.77-.75 1.417 1.396L16.667 4l.771.75Z"/></svg></span>
+
+  <span class="sidebar__text">Coming Features</span>
+      </a>
+                      
+                  </li>
+                
+            </ul>
+          </li>
+        
+    
+</ul>
+</nav>
+</div>
+</aside>
+  <main id="l-main" class="l-tnp">
+    <div id="l-content-box" class="l-box l-box--doc">
+        <div id="l-content" data-pagefind-body>
+            <header class="page-header">
+                <div class="meta meta--head meta--left-doc" data-pagefind-ignore>
+                    <div class="margin-doc"></div>
+<ul class="ul--row meta__list">
+  <li class="meta__item"><a class="meta__hanging link link--nav" href='/doc/'>
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M1.938 16v-.75h1.5v-.375h-.75v-.75h.75v-.375h-1.5V13H4.25v3Zm3.958-.875v-1.75h11.229v1.75ZM1.875 11.5v-.667l1.292-1.5H1.875V8.5H4.25v.667l-1.292 1.5H4.25v.833Zm4.021-.625v-1.75h11.229v1.75ZM2.688 7V4.833h-.75V4H3.5v3Zm3.208-.375v-1.75h11.229v1.75Z"/></svg></span>
+</a>
+  </li>
+        <li class="meta__item">
+          <a class="meta__text link link--nav" href="/doc/overview/" rel="nofollow">TL;DR
+
+</a>
+        </li>
+    
+</ul>
+<a href="vscode://fileC:\\ANDES_CAFE\\RCafe ANDES\\content\\doc\\overview\\markdown\\index.md" aria-label="Open file in VSCode" rel="nofollow"><ul class="meta__list meta__list--date">
+<li class="meta__item meta__date"><span class="meta__icon">
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.021 14.938q-.896 0-1.521-.615-.625-.615-.625-1.49 0-.895.625-1.521.625-.624 1.521-.624.875 0 1.489.624.615.626.615 1.521 0 .875-.615 1.49-.614.615-1.489.615ZM2.333 18.5V3.25h2.584V1.5h1.875v1.75h6.416V1.5h1.875v1.75h2.584V18.5Zm1.979-1.979h11.376V8.375H4.312Z"/></svg></span>
+</span><time class="meta__text" datetime="2022-05-12T22:30:17&#43;02:00">May 12, 2022</time>
+</li>
+</ul>
+          </a>
+
+                </div>
+                <div class="title title--sans margin-doc"><h1 data-pagefind-weight="10">Markdown Layout
+
+</h1>
+
+
+                </div>
+                <aside class="featured-image"><figure class="fig fig--ph-right fig--w-tiny fig--featured">
+        <span 
+         class="img__frame img__frame--bg-light img__frame--box-shadow img__frame--pad-one">
+    <span 
+     class="img__c img__c--t-symbol">
+
+
+
+
+    
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" width="208" height="128" viewBox="0 0 208 128"><rect width="198" height="118" x="5" y="5" ry="10" stroke="#333" stroke-width="10" fill="none"/><path style="fill:#333" d="M30 98V30h20l20 25 20-25h20v68H90V59L70 84 50 59v39zm125 0l-30-33h20V30h20v35h20z"/></svg></span>
+
+</span>
+
+    
+</figure>
+</aside>
+            </header>
+                <div class="md md--sans md--h-sans md--margin-doc"><p class="p-first">Samples of Hugo’s extended CommonMark syntax to give a quick impression of the layout capabilities.</p>
+<p>This page only shows their default style. The theme offers style variations for many of these elements. The notes on this page are not part of Hugo’s usual Markdown options and are generated by the theme’s shortcode <a class="link link--text" href="https://perplex.desider.at/doc/enhancing/shortcode/mnote" rel="external"><code>mnote</code></a>.</p>
+<h2 id="headings">
+	<a class="h-a" href="#headings">Headings</a>
+</h2><p>The following HTML elements <code>&lt;h1&gt;</code> — <code>&lt;h6&gt;</code> represent the title, three levels of section headings, and two levels of paragraph headings.</p>
+<p class="box-info">Because the templates generate the title section from front-matter meta-data the Markdown <strong>should not</strong> contain a title. As usual, the theme processes front-matter parameters for the <a class="link link--text" href="https://perplex.desider.at/doc/page/title" rel="external">title section</a>.</p>
+<hr>
+<h1 id="title">
+	<a class="h-a" href="#title">Title</a>
+</h1><p class="placeholder" data-pagefind-ignore="all">The jay, pig, fox, zebra and my wolves quack! Six big devils from Japan quickly forgot how to waltz. Cozy sphinx waves quart jug of bad milk.</p>
+<hr>
+<h2 id="section">
+	<a class="h-a" href="#section">Section</a>
+</h2><p class="placeholder" data-pagefind-ignore="all">Jackdaws love my big sphinx of quartz. Do wafting zephyrs quickly vex Jumbo? A wizard’s job is to vex chumps quickly in fog.</p>
+<h3 id="subsection">
+	<a class="h-a" href="#subsection">Subsection</a>
+</h3><p class="placeholder" data-pagefind-ignore="all">How razorback-jumping frogs can level six piqued gymnasts! Grumpy wizards make toxic brew for the evil queen and jack. Hick dwarves jam blitzing foxy quip.</p>
+<h4 id="sub-subsection">
+	<a class="h-a" href="#sub-subsection">Sub-subsection</a>
+</h4><p class="placeholder" data-pagefind-ignore="all">The jay, pig, fox, zebra and my wolves quack! Quick blowing zephyrs vex daft Jim. Five jumping wizards hex bolty quick.</p>
+<h5 id="paragraph">
+	<a class="h-a" href="#paragraph">Paragraph</a>
+</h5><p class="placeholder" data-pagefind-ignore="all">Jackie will budget for the most expensive zoology equipment. Waltz job vexed quick frog nymphs. Pack my box with five dozen liquor jugs.</p>
+<h6 id="small-paragraph">
+	<a class="h-a" href="#small-paragraph">Small Paragraph</a>
+</h6><p class="placeholder" data-pagefind-ignore="all">Vexed nymphs go for quick waltz job. Jackie will budget for the most expensive zoology equipment. Quads of blowzy fjord ignite map vex’d chicks.</p>
+<h2 id="images">
+	<a class="h-a" href="#images">Images</a>
+</h2><p>Since version 0.108.0 Hugo allows distinguishing stand-alone and embedded images.</p>
+<h3 id="stand-alone">
+	<a class="h-a" href="#stand-alone">Stand-alone</a>
+</h3>
+    
+    <figure class="fig fig--w-text">
+    
+    
+    
+        
+        
+        
+            
+                
+            
+            
+    
+        <span 
+         class="img__frame img__frame--box-shadow" style="display: flex; justify-content: center; align-items: center; background-image: linear-gradient(to right, #10191f, #1aacd1)">
+    <span 
+     class="img__c" style="position: relative; width: 100%; height: 0; padding-bottom: 93.2813%;">    
+    
+<img alt="A big splash of water" class="img--ls img--lqip lazyload" data-optimumx="auto" data-sizes="auto" data-srcset="/doc/overview/markdown/erda-estremera-eMX1aIAp9Nw-unsplash-512x.webp 512w, /doc/overview/markdown/erda-estremera-eMX1aIAp9Nw-unsplash-569x.webp 569w, /doc/overview/markdown/erda-estremera-eMX1aIAp9Nw-unsplash-633x.webp 633w, /doc/overview/markdown/erda-estremera-eMX1aIAp9Nw-unsplash-700x.webp 700w, /doc/overview/markdown/erda-estremera-eMX1aIAp9Nw-unsplash-703x.webp 703w, /doc/overview/markdown/erda-estremera-eMX1aIAp9Nw-unsplash-781x.webp 781w, /doc/overview/markdown/erda-estremera-eMX1aIAp9Nw-unsplash-869x.webp 869w, /doc/overview/markdown/erda-estremera-eMX1aIAp9Nw-unsplash-965x.webp 965w, /doc/overview/markdown/erda-estremera-eMX1aIAp9Nw-unsplash-1073x.webp 1073w, /doc/overview/markdown/erda-estremera-eMX1aIAp9Nw-unsplash-1193x.webp 1193w, /doc/overview/markdown/erda-estremera-eMX1aIAp9Nw-unsplash-1325x.webp 1325w, /doc/overview/markdown/erda-estremera-eMX1aIAp9Nw-unsplash-1473x.webp 1473w, /doc/overview/markdown/erda-estremera-eMX1aIAp9Nw-unsplash-1637x.webp 1637w, /doc/overview/markdown/erda-estremera-eMX1aIAp9Nw-unsplash-1820x.webp 1820w" height="653" src="data:image/webp;base64,UklGRhQFAABXRUJQVlA4IAgFAAAQMwCdASrpANkAP0WgxFQoPjcrJvVZg8Yoic3cLanAVZTqV4SY+jV4u/leC6Ua2/9kszufMdfocG94Ac6DcWkVWedBuLSKrPOg3E2K4+GRoPgBzoNtY44R1OGuTPOg3Fo6tLqGTTSKrPOg4D0iqzzoNxNkVEdigmWY86DPwDaUZyNH41KyQncptBM3t8IDj0BBN7ucIOmJElvBv874xiPfwwn+Q12htbxC6qP17FHVu/OcAjk7b4lk3Iur8HstAqwfKO6VE8htyrjpEHDMU3FafbMYjVAIUs61w3eY2lwWSdkZTurze9Qb4LvKwokrgv981pJNOnvJsgA9lfABeCxBIG7mjK6eIe2Aa3yjMACui66hi8UnVeMCRx4n5iU75wvshFTr10q0Lg1nojuqwaSVD4YU8HvT0xPtsaMXjuLcmQBRgFUfxIuXCM++YjvT0u2DcYhI5ZQyndfllckkxPnEAPCCr7Yrx/6/dwFIgW97hTuYed2BeuXiUQ3I8TxIbdUARO0NLJw/F/3L8QIZmfkjp6/GvdN/RNCB8gtIuGHNJ4AA/vs20AAAAAAyVq9HSiAAA8xgTiecxgOhI1fGk/SZ6QAe5OD69U/LwAAAAAUZo2Y4H9pe2v8tL5Vq3PBKwpBvHfyTGaQGMNUpfnQi0kG9WOKINg2PtSXVL7ABqkQw33gk3i7hFurHRJwi25NLINOW9jBIJCMKCc7lXLYo1VQsEzHdt7ZN+nLK+UdeebwCIY+o61OryUSeprYnPSySVTov48bOr8fyTYKRWKXTeSGrxYecBHP3r17k2s4ebQGc9wqvOgN7rTlUPhcMvyr9nxwGf9+AuYCPLl53HMq5KxVAAtfuzUSq84Qk6kbrJ62D+/MM3TD5ymL4xZKBJWCaPhgXspfGpYCp4l8x/JSa+TxDFuMBhTdZBolIz0sSUbdS1sgQvGinO+SPCAw47wZg/Vc9pplGsqVNlo8y7mVvDyZ5W/CjJ2th0u5brk4SGVJZGYaY7BiQtUDiEJrupNdjMIL5pMJo4yY/SPJKu0R9KanlnnGC6Lh2VComXdhTjnu5XGSTlSaw1DuHaYu8J2EXzkbonu037I6+w2utp2UseAYZyWqJx91mZXEEQZq+YfzIIxRdEc2ImgNqSBP1qGVPnEeKUClM3oHYec7ecSSGHk+pBtx8x7pVY71dgrln59m79NvCSmHTWe7mmcAf7dxdPcCAAMFL9Nym50MD7DUX/CZCf8Pu7gwnCf+GFKNOF+bxDUGMDScFg1HMzk//4w50j6BB7L3PmuZMUc+jis6E99Jd8ERf4AtQ+wncHFedkCs6RBxDwhzYCb5x4Npo5mE8u0gGl0rW4RFHiAGM/W87mQFrz3NI9Tm4stAig0Pu7KBrIzYCsdifwQkZYOA+2rJYDYyO+5ulgesORvINI9/pUrt4XUCDvLttY38qxT6X8PtZCznHslvmFJ76k02bsZoAEXTOahgc3Og4Y4eiSZq8STpVRIGZawKk3fyoAIIL5uijLd/lq/SFc87p3SPidZUrL4bC9K0mu1yeWLFyoznS6U94b/nKQPef5JmLq7txPthcg/vQ2x6T2oBjz5Oi5JDWz1eXtigEyXjHZwLtKwr3HtJF/fMRrq+60ADzAgVMBh93xXcVm/BextBDUNOONXRhpBcyWsrzNeLywtmuA1thNFcgaLbXViH14f9TlutK0/pkIJdUM+5gAAAA" width="700"></span>
+
+</span>
+
+    
+      <figcaption class="caption">
+           <span class="caption__text"><span class="caption__id">Fig 1:</span> This caption and the attribution are not available for directly included images. We need to provide the additional information in associated resource parameters (→ <a class="link link--text" href="https://perplex.desider.at/doc/intro/workflow/resources" rel="external">Resources</a>).</span><span class="caption__attr" data-pagefind-ignore>(<a class="link link--text" href="https://unsplash.com/photos/eMX1aIAp9Nw">Erda Estremera/Unsplash</a>)</span>
+      </figcaption>
+    
+</figure><h3 id="embedded">
+	<a class="h-a" href="#embedded">Embedded</a>
+</h3><p class="placeholder" data-pagefind-ignore="all">
+    
+    <span class="emb emb--ph-left emb--w-small">
+    
+    
+    
+        
+        
+        
+            
+                
+            
+            
+    
+        <span 
+         class="img__frame img__frame--box-shadow" style="display: flex; justify-content: center; align-items: center; background-image: linear-gradient(to right, #93c8ea, #6ea9de)">
+    <span 
+     class="img__c" style="position: relative; width: 100%; height: 0; padding-bottom: 100.0000%;">    
+    
+<img alt="A smaller splash of water" class="img--ls img--lqip lazyload" data-optimumx="auto" data-sizes="auto" data-srcset="/doc/overview/markdown/mulyadi-JJMoAiVl9jA-unsplash-256x.webp 256w, /doc/overview/markdown/mulyadi-JJMoAiVl9jA-unsplash-286x.webp 286w, /doc/overview/markdown/mulyadi-JJMoAiVl9jA-unsplash-319x.webp 319w, /doc/overview/markdown/mulyadi-JJMoAiVl9jA-unsplash-330x.webp 330w, /doc/overview/markdown/mulyadi-JJMoAiVl9jA-unsplash-356x.webp 356w, /doc/overview/markdown/mulyadi-JJMoAiVl9jA-unsplash-397x.webp 397w, /doc/overview/markdown/mulyadi-JJMoAiVl9jA-unsplash-444x.webp 444w, /doc/overview/markdown/mulyadi-JJMoAiVl9jA-unsplash-495x.webp 495w, /doc/overview/markdown/mulyadi-JJMoAiVl9jA-unsplash-553x.webp 553w, /doc/overview/markdown/mulyadi-JJMoAiVl9jA-unsplash-617x.webp 617w, /doc/overview/markdown/mulyadi-JJMoAiVl9jA-unsplash-689x.webp 689w, /doc/overview/markdown/mulyadi-JJMoAiVl9jA-unsplash-769x.webp 769w, /doc/overview/markdown/mulyadi-JJMoAiVl9jA-unsplash-858x.webp 858w" height="330" src="data:image/webp;base64,UklGRhYBAABXRUJQVlA4IAoBAAAQCwCdASpuAG4AP0WiulSoJqekppzJcQYoiekDvZ1/giU47f/6v+HUlXoT0OO2Ykcz80OOIh2QqlrNj0XP9uSeU713FuaRrc6aA/W09RALl5GHgEtdP6/z2hIY5TcRjYHQAP7jd3a8Nkb6S6XM6xGBWHiQikt5sKoaDpWHlcBBlTkQQx1C64kkBbJkPRV0+ppnQOZaZhVqZSiMgx3PKQ3zthiHGSDMlXlQMMHovauIhwSnXYg20ovnvZIhJnpgq31IkEqqR8xXH/uou26ntm8e4rxDiZjRUaOC5yeLryTiggqK+QD189PridAnyDY0ECalmlo3t59WWuS+ldHnU94uIdKPW2bvtEAAAA==" width="330"></span>
+
+</span>
+
+    
+      <span class="caption">
+           <span class="caption__text"><span class="caption__id">Fig 2:</span> Caption (only from a resource)</span><span class="caption__attr" data-pagefind-ignore>(<a class="link link--text" href="https://unsplash.com/photos/JJMoAiVl9jA">Mulyadi/Unsplash</a>)</span>
+      </span>
+    
+</span>
+ DJs flock by when MTV ax quiz prog. Heavy boxes perform quick waltzes and jigs. Grumpy wizards make a toxic brew for the jovial queen. Jackie will budget for the most expensive zoology equipment. Jack, love my big wad of sphinx quartz! By Jove, my quick study of lexicography won a prize.</p>
+<p class="placeholder" data-pagefind-ignore="all">Fax back Jim’s Gwyneth Paltrow video quiz. The lazy major was fixing Cupid’s broken quiver. Fickle bog dwarves jinx empathy quiz. Battle of Thermopylae: Quick javelin grazed wry Xerxes. Jumpy halfling dwarves pick quartz box. A wizard’s job is to vex chumps quickly in fog.</p>
+<h2 id="link">
+	<a class="h-a" href="#link">Link</a>
+</h2><ul>
+<li>
+<p>This is an internal <a class="link link--text" href="/doc/overview/markdown/#images">example link</a>.</p>
+</li>
+<li>
+<p>This is an external <a class="link link--text" href="https://example.com" rel="external" title="example.com">example link</a>.</p>
+</li>
+</ul>
+<h2 id="blockquotes">
+	<a class="h-a" href="#blockquotes">Blockquotes</a>
+</h2><p>The blockquote element contains content from another source.</p>
+<h3 id="without-attribution">
+	<a class="h-a" href="#without-attribution">Without attribution</a>
+</h3><blockquote>
+<p class="placeholder" data-pagefind-ignore="all">A quivering Texas zombie fought republic linked jewelry. Quincy Pondexter blocked five jams against the Wizards! Why shouldn’t a quixotic Kazakh vampire jog barefoot? By Jove, my quick study of lexicography won a prize. Joaquin Phoenix was gazed by MTV for luck.</p>
+<p><strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>
+</blockquote>
+<h3 id="with-attribution-and-footnote">
+	<a class="h-a" href="#with-attribution-and-footnote">With attribution and footnote</a>
+</h3><blockquote>
+<p>Don&rsquo;t communicate by sharing memory, share memory by communicating.<br> — <em>Rob Pike</em><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</blockquote>
+<h2 id="tables">
+	<a class="h-a" href="#tables">Tables</a>
+</h2><p>Tables aren&rsquo;t part of CommonMark, but Hugo supports their syntax as an extension by default.</p>
+<h3 id="centered-table-columns">
+	<a class="h-a" href="#centered-table-columns">Centered table columns</a>
+</h3><table>
+<thead>
+<tr>
+<th style="text-align:center">Name</th>
+<th style="text-align:center">Age</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Bob</td>
+<td style="text-align:center">27</td>
+</tr>
+<tr>
+<td style="text-align:center">Alice</td>
+<td style="text-align:center">23</td>
+</tr>
+</tbody>
+</table>
+<h3 id="inline-markdown-within-tables">
+	<a class="h-a" href="#inline-markdown-within-tables">Inline Markdown within tables</a>
+</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">Inline</th>
+<th style="text-align:center">Markdown</th>
+<th style="text-align:center">In</th>
+<th style="text-align:right">Table</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><em>italics</em></td>
+<td style="text-align:center"><strong>bold</strong></td>
+<td style="text-align:center"><del>strikethrough</del></td>
+<td style="text-align:right"><code>code</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="code-blocks">
+	<a class="h-a" href="#code-blocks">Code Blocks</a>
+</h2><h3 id="with-backticks-code-fences">
+	<a class="h-a" href="#with-backticks-code-fences">With backticks (code fences)</a>
+</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;UTF-8&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></span></code></pre></div><h3 id="code-block-indented-with-four-spaces">
+	<a class="h-a" href="#code-block-indented-with-four-spaces">Code block indented with four spaces</a>
+</h3><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Test&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h3 id="code-block-with-hugos-internal-highlight-shortcode">
+	<a class="h-a" href="#code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</a>
+</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;UTF-8&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></span></span></code></pre></div>
+<h2 id="list-types">
+	<a class="h-a" href="#list-types">List Types</a>
+</h2><h3 id="ordered-list">
+	<a class="h-a" href="#ordered-list">Ordered list</a>
+</h3><ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<h3 id="unordered-list">
+	<a class="h-a" href="#unordered-list">Unordered list</a>
+</h3><ul>
+<li>List item</li>
+<li>Another item</li>
+<li>And another item</li>
+</ul>
+<h3 id="nested-unordered-and-ordered-list">
+	<a class="h-a" href="#nested-unordered-and-ordered-list">Nested unordered and ordered list</a>
+</h3><ul>
+<li>
+<p>Item 1</p>
+<ol>
+<li>
+<p>First sub-item of the first item</p>
+</li>
+<li>
+<p>Second sub-item of the first item</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Item 2</p>
+<ol>
+<li>
+<p>First sub-item of the second item</p>
+</li>
+<li>
+<p>Second sub-item of the second item</p>
+</li>
+</ol>
+</li>
+</ul>
+<h3 id="definition-list">
+	<a class="h-a" href="#definition-list">Definition list</a>
+</h3><p>The definition list is also an extension for Goldmark supported by Hugo.</p>
+<dl>
+<dt>First term</dt>
+<dd>Description of the first term</dd>
+<dt>Second term</dt>
+<dd>Description of the second term</dd>
+</dl>
+<h2 id="missing-markdown-elements">
+	<a class="h-a" href="#missing-markdown-elements">Missing Markdown elements</a>
+</h2><p>Some inline HTML tags have no corresponding syntax in Goldmark. We can either enable raw HTML in Markdown or use Hugo to generate them.</p>
+<h3 id="additional-inline-elements">
+	<a class="h-a" href="#additional-inline-elements">Additional inline elements</a>
+</h3><dl class="dl-loose inline">
+<dt>sub &amp; sup</dt>
+<dd>H<sub>2</sub>O, X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></dd>
+<dt>kbd</dt>
+<dd>Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.</dd>
+<dt>mark</dt>
+<dd>Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.</dd>
+<dt>cite</dt>
+<dd>We can reference a <cite>book</cite>.</dd>
+</dl>
+<aside class="right3  "><div class="note "><div class="note__content">
+  <p>This theme supports safe Markdown → <code>unsafe: false</code>. The elements here are generated by <code>replaceRE …</code> of <a class="link link--text" href="https://perplex.desider.at/doc/enhancing/replace" rel="external">replacement codes</a>.</p>
+    </div>
+  </div>
+</aside>
+
+<h3 id="inline-with-special-attributes">
+	<a class="h-a" href="#inline-with-special-attributes">Inline with special attributes</a>
+</h3><p>The link element is tweaked to produce the following two tags when their name is provided as link target and combined with a title attribute:</p>
+<dl class="dl-loose inline">
+<dt>abbr</dt>
+<dd>The link <code>[HTML](abbr &quot;HyperText Markup Language&quot;)</code> generates <abbr title="HyperText Markup Language">HTML</abbr></dd>
+<dt>dfn</dt>
+<dd>The link <code>[Replacement codes](dfn &quot;replacement codes&quot;)</code> generates the definition tag:
+<p><dfn id="replacement codes">Replacement codes</dfn> are defined by curly braces and a marker directly after the first brace.</p>
+</dd>
+</dl>
+<aside class="right3  "><div class="note "><div class="note__content">
+  <p>The render-link hook recognizes and processes these special links.</p>
+    </div>
+  </div>
+</aside>
+
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The above quote is excerpted from Rob Pike&rsquo;s <a class="link link--text" href="https://www.youtube.com/watch?v=PAAkCSZUG1c" rel="external">talk</a> during Gopherfest, on November 18, 2015.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+                </div>
+        </div>
+        <div class="related margin-doc">
+
+        </div>
+        <footer class="page-footer margin-doc">
+            <div class="meta meta--foot"><nav>
+    
+
+<ul class="meta__list">
+  <li class="taxo-shape taxo-shape--category">
+      
+        <ul class="ul--row">
+<li class="meta__hanging">
+  <a class="link link--nav" href="/categories/" title="All Categories">
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="m5.042 9.479 4.979-8.146L15 9.479Zm9.666 9.167q-1.646 0-2.791-1.156-1.146-1.157-1.146-2.782 0-1.646 1.146-2.791 1.145-1.146 2.791-1.146 1.625 0 2.782 1.146 1.156 1.145 1.156 2.791 0 1.625-1.156 2.782-1.157 1.156-2.782 1.156Zm-12.583-.417v-7.062h7.063v7.062Z"/></svg></span>
+</a>
+</li>
+  <li class="meta__item meta__item--taxo"><a class="meta__text link link--nav" href="/categories/overview/">Overview
+
+</a>&zwj;<span class="meta__separator">•</span>
+</li>
+  <li class="meta__item meta__item--taxo"><a class="meta__text link link--nav" href="/categories/markdown/">Markdown
+
+</a></li></ul>
+      
+  </li>
+  <li class="taxo-shape taxo-shape--tag">
+      
+        <ul class="ul--row"><li class="meta__hanging">
+  <a class="link link--nav" href="/tags/" title="All Tags">
+    
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M3.188 10.542v5.875L.917 15.5Zm4.062 7.75h-2.5V11.5Zm1.958.75L4.146 5.333 14 1.75l5.042 13.729Zm.021-10.5q.396 0 .677-.282.282-.281.282-.677 0-.375-.282-.656-.281-.281-.677-.281-.375 0-.656.281t-.281.656q0 .396.281.677.281.282.656.282Z"/></svg></span>
+</a>
+</li>
+  <li class="meta__item meta__item--taxo"><a class="meta__text link link--nav" href="/tags/block/">Block
+
+</a>&zwj;<span class="meta__separator">•</span>
+</li>
+  <li class="meta__item meta__item--taxo"><a class="meta__text link link--nav" href="/tags/inline/">Inline
+
+</a></li></ul>
+      
+  </li>
+</ul>
+
+    <ul class="ul--row meta__list">
+  <li class="meta__item">
+    <a class="meta__icon link link--nav" href="/" title="Home" rel="nofollow">
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M3.167 17.667V7.438L10 2.292l6.833 5.146v10.229h-5.75v-5.646H8.896v5.646Z"/></svg></span>
+</a></li><li class="meta__item"><span class="meta__separator">›</span>
+</li>
+    <li class="meta__item">
+        <a class="meta__text link link--nav" href="/doc/" rel="nofollow">Docs
+
+</a><span class="meta__separator">›</span>
+
+      </li><li class="meta__item">
+        <a class="meta__text link link--nav" href="/doc/overview/" rel="nofollow">TL;DR
+
+</a><span class="meta__separator">›</span>
+
+      </li><li class="meta__item">
+    <a class="meta__text link link--nav" href="/doc/overview/markdown/" aria-current="page" rel="nofollow">Markdown Layout</a>
+  </li>
+</ul>
+
+</nav>
+<ul class="meta__list meta__list--date">
+  <li class="meta__item"><span class="meta__icon"><a href="vscode://fileC:\\ANDES_CAFE\\RCafe ANDES\\content\\doc\\overview\\markdown\\index.md" aria-label="Open file in VSCode" rel="nofollow">
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="m16.208 7.604-3.75-3.771 2.271-2.291 3.792 3.75Zm-13.75 9.979v-3.75l8.771-8.771 3.75 3.75-8.75 8.771Z"/></svg></span>
+
+          </a>
+</span>
+    <time class="meta__text" datetime="2022-05-12T22:30:17&#43;02:00">May 12, 2022</time>
+  </li><li class="meta__item"><span class="meta__icon">
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 18.5q-1.771 0-3.323-.667-1.552-.666-2.698-1.812t-1.812-2.698Q1.5 11.771 1.5 10t.667-3.323q.666-1.552 1.812-2.698t2.698-1.812Q8.229 1.5 10 1.5t3.323.667q1.552.666 2.698 1.812t1.812 2.698Q18.5 8.229 18.5 10t-.667 3.323q-.666 1.552-1.812 2.698t-2.698 1.812Q11.771 18.5 10 18.5Zm2.583-4.562 1.375-1.355-3-2.979V5.896H9.042v4.458Z"/></svg></span>
+</span>
+    <span class="meta__text">10:30 pm</span></li><li class="meta__item"><span class="meta__icon"><a class="link link--nav" href="/authors/" title="All authors" rel="nofollow">
+
+        
+<span class='icon icon--material icon--tiny'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M15.042 11.458V9.042h-2.417V7.208h2.417V4.792h1.833v2.416h2.417v1.834h-2.417v2.416Zm-7.48-1.562q-1.479 0-2.489-1.011-1.011-1.01-1.011-2.489 0-1.5 1.011-2.5 1.01-1 2.489-1 1.5 0 2.511 1 1.01 1 1.01 2.5 0 1.479-1.01 2.489-1.011 1.011-2.511 1.011ZM.688 16.917v-2.563q0-.792.406-1.406.406-.615 1.052-.948 1.312-.625 2.677-.938 1.365-.312 2.76-.312 1.417 0 2.792.323 1.375.323 2.667.927.646.312 1.041.938.396.624.396 1.416v2.563Z"/></svg></span>
+</a>
+</span>
+      <a class="meta__text link link--nav" href="/authors/georg-makowski/" rel="nofollow">Georg Makowski
+
+</a></li></ul>
+            </div>
+            <hr><nav class="page-nav">
+  <ul class="page-nav__list">
+      
+        <li class="page-nav__li"><a href="/doc/overview/concept/" class="page-nav__link page-nav__link--prev link link--nav">
+            <span class="page-nav__itemcol">
+                <span class="section-nav__icon">
+
+        
+<span class='icon icon--material icon--normal'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.5 19.5v-15h19v15ZM4 18h16V6H4Zm2.25-5.25h8.5v-1.5h-8.5Zm0-3h8.5v-1.5h-8.5ZM4 6v12Z"/></svg></span>
+</span>
+            </span>
+                
+
+
+    
+
+
+    
+
+<span><span class="page-nav__meta">TL;DR
+
+</span><span class="page-nav__title">Concept
+
+</span></span>
+            <span class="page-nav__icon page-nav__icon--arrow">
+
+        
+<span class='icon icon--material icon--normal'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.075 18.675 2.4 12l6.675-6.675 1.075 1.05-4.875 4.875h16.15v1.5H5.275l4.85 4.875Z"/></svg></span>
+</span>
+          </a></li>
+      
+        <li class="page-nav__li">
+          <a href="/doc/overview/features/" class="page-nav__link page-nav__link--next link link--nav">
+            <span class="page-nav__itemcol">
+                <span class="section-nav__icon">
+
+        
+<span class='icon icon--material icon--normal'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.75 20.675 8.725 14.2 3.55 10.5h6.425L12 3.725l2.025 6.775h6.425l-5.175 3.7 1.975 6.475-5.25-4Z"/></svg></span>
+</span>
+            </span>
+              
+
+
+    
+
+
+    
+
+<span><span class="page-nav__meta">TL;DR
+
+</span><span class="page-nav__title">Features
+
+</span></span>
+            <span class="page-nav__icon page-nav__icon--arrow">
+
+        
+<span class='icon icon--material icon--normal'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.725 18.675-1.05-1.05 4.875-4.875H2.4v-1.5h16.15l-4.875-4.875 1.05-1.05 6.7 6.675Z"/></svg></span>
+</span>
+          </a></li>
+      </ul>
+</nav>
+
+
+
+
+
+
+
+        </footer>
+    </div><footer id="l-footer" class="l-box margin-doc-half">
+</footer>
+  </main>
+  <div id="l-overlay"></div>
+  <div id="l-fill"></div>
+</div>
+<script defer src="/js/foot.min.647041716d25f250160523ec93482b0362c91a005167af878924dec883715594.js" integrity="sha256-ZHBBcW0l8lAWBSPsk0grA2LJGgBRZ6&#43;HiSTeyINxVZQ="></script>
+
+  
+
+
+
+
+
+
+
+</body>
+</html>
