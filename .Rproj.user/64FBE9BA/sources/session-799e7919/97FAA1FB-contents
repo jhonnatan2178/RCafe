@@ -1,0 +1,35 @@
+---
+title: "Bienvenido a RCafe"
+output_dir: "docs"
+navbar:
+  title: "RCafe: La Magia de R"
+  left:
+    - text: "Inicio"
+      href: index.html
+    - text: "Acerca de"
+      href: about.html
+    - text: "Tutoriales"
+      href: tutorials.html
+    - text: "Recursos"
+      href: resources.html
+---
+
+# Bienvenido a RCafe
+
+¡Saludos, magos y brujas del análisis de datos! En RCafe, somos un grupo de estudiantes de la Universidad de los Andes apasionados por la enseñanza y el aprendizaje del software R. Nuestra misión es crear un espacio donde podamos compartir conocimientos, recursos y consejos sobre el manejo de R en distintas ramas de la ingeniería y las ciencias.
+
+## ¿Qué ofrecemos?
+
+- **Tutoriales**: Desde los conceptos básicos hasta técnicas avanzadas en R, encontrarás tutoriales que te ayudarán a dominar este poderoso lenguaje de programación.
+- **Recursos**: Accede a una biblioteca de recursos que incluye libros, artículos, y herramientas útiles para complementar tu aprendizaje.
+- **Comunidad**: Únete a nuestra comunidad de aprendizaje donde podrás hacer preguntas, compartir experiencias y colaborar en proyectos.
+
+## Conviértete en un Mago de los Datos
+
+R es una herramienta mágica que permite manipular, analizar y visualizar datos de manera eficiente. A través de nuestros tutoriales y recursos, te guiaremos en el camino para convertirte en un verdadero mago de los datos. 
+
+## Contáctanos
+
+Si tienes preguntas o deseas más información sobre RCafe, no dudes en contactarnos a través de nuestras redes sociales o enviándonos un correo electrónico a rcafe@ejemplo.com.
+
+¡Esperamos que disfrutes tu visita y te unas a nuestra búsqueda por el conocimiento en R!

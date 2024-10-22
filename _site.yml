@@ -1,0 +1,17 @@
+---
+name: "Que empiece la magia!!"
+output_dir: "docs"
+navbar:
+  title: "R Cafe Uniandes"
+  left:
+    - text: "Que empiece la magia"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Spellbooks (Resources)"
+      href: Spellbooks.html
+output:
+  html_document:
+    css: styles.css
+    theme: darkly
+---
